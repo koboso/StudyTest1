@@ -3,7 +3,7 @@
 using namespace std;
 
 void main() {
-// 구구단 5단 출력하세요.
+	// 구구단 5단 출력하세요.
 	printf("1- 9 까지 수를 입력하세요 .\n");
 
 	int input;
@@ -18,6 +18,8 @@ void main() {
 	printf("%d * %d = %d\n", input, 7, input * 7);
 	printf("%d * %d = %d\n", input, 8, input * 8);
 	printf("%d * %d = %d\n", input, 9, input * 9);
+
+// 작업 완료.
 
 	fgetc(stdin);
 }
